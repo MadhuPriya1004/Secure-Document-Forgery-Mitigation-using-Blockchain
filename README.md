@@ -54,7 +54,7 @@ secure-doc-project/
 # Installation & Setup Instructions
 
 **1. Clone the Repository**
-   git clone https://github.com/your-username/secure-doc-blockchain.git
+   git clone https://github.com/MadhuPriya1004/secure-doc-blockchain.git
    
    cd secure-doc-blockchain
    
