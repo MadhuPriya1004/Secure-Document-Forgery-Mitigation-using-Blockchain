@@ -3,23 +3,21 @@ This is a full-stack web application that ensures the authenticity of uploaded d
 
 # Features
 
-Upload documents and store their hashes on the blockchain
+#Decentralized Storage:# Stores document metadata and hash on Ethereum blockchain using a custom smart contract.
 
-Validate document uniqueness via SHA-256
+IPFS Integration: Actual documents are uploaded to InterPlanetary File System (IPFS) to ensure decentralized file hosting.
 
-Upload documents to IPFS (via Pinata)
+Forgery Detection: Prevents re-upload of previously submitted documents by checking file hashes.
 
-Google-based Firebase OTP authentication
+Role-Based Access: Controlled issuing of documents using Firebase-authenticated user roles.
 
-Notify previous uploaders on re-upload or issuance using EmailJS
+Masked Email Notifications: Uses EmailJS and AbstractAPI to notify all previous uploaders/issuers with masked metadata.
 
-QR code generation for IPFS access
+QR Code Generation: Issues documents with scannable QR codes pointing to IPFS download links.
 
-Role-based access control (Issue, Upload, Verify)
+User Authentication: Secured login via Firebase Google OTP Authentication (no email input required).
 
-Masked data (filename and email) for privacy
-
-UI includes About & Contact sections
+Blockchain Event Handling: Listens to contract events in real-time and reacts on the frontend using Web3.js
 
 # Technologies Used
 
