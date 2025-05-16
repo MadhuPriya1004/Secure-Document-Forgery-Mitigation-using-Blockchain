@@ -55,24 +55,38 @@ secure-doc-project/
 
 **1. Clone the Repository**
    git clone https://github.com/your-username/secure-doc-blockchain.git
+   
    cd secure-doc-blockchain
+   
 **2. Install Dependencies**
+
    npm install
 **3. Start Ganache GUI**
+
    Open Ganache GUI and create a new workspace.
+   
    Use the RPC port in your truffle-config.js file.
+   
 **4. Compile and Deploy Smart Contract**
+
    truffle compile
+   
    truffle migrate
+   
 **5. Start the React App**
+
    npm start
 
 **EmailJS Configuration**
+
    You need to set up EmailJS templates as follows:
 
 # Templates Used:
+
 template_5zkkkh — For previous uploader notifications
+
 template_567ghy — For confirmation email to the uploader
+
 Service ID: service_mpyyy1b
 Public Key: jmai8_hA9LSllllj
 
