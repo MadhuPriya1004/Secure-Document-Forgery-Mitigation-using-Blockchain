@@ -32,7 +32,7 @@ This project aims to mitigate the risks of document forgery by leveraging the im
 | IDE               | Visual Studio Code (Windows)                     |
 | Backend DB        | Firestore (to log previous uploaders)            | 
 
-**Folder Structure**
+# Folder Structure
 
 secure-doc-project/
 ├── contracts/
@@ -51,7 +51,7 @@ secure-doc-project/
 ├── truffle-config.js
 └── README.md
 
-**Installation & Setup Instructions**
+# Installation & Setup Instructions
 
 **1. Clone the Repository**
    git clone https://github.com/your-username/secure-doc-blockchain.git
@@ -70,13 +70,13 @@ secure-doc-project/
 **EmailJS Configuration**
    You need to set up EmailJS templates as follows:
 
-**Templates Used:**
+# Templates Used:
 template_5zkkkh — For previous uploader notifications
 template_567ghy — For confirmation email to the uploader
 Service ID: service_mpyyy1b
 Public Key: jmai8_hA9LSllllj
 
-**Variables used in the templates:**
+# Variables used in the templates:
 document_name
 uploader_email
 upload_time
@@ -95,7 +95,7 @@ If new, it's uploaded to IPFS, hash + metadata saved on-chain.
 
 Previous uploaders notified with masked details.
 
-Issue Flow:
+**Issue Flow:**
 
 Document is sent to a receiver via email with IPFS link.
 
@@ -103,7 +103,7 @@ Previous uploaders are notified.
 
 Access is validated using Firebase authentication.
 
-# Verify Flow:
+**Verify Flow:**
 
 Document hash or QR scanned and checked against blockchain records
 
@@ -120,4 +120,13 @@ QR code preview before issuing
 
 Smooth navigation between all modules
 
+# Contributors
+Madhu Priya – GCET, Roll No: 22R15A0505 – 22R15A0505@gcet.edu.in
+
+Sania – GCET, Roll No: 21R11A0548 – 21R11A0548@gcet.edu.in
+
+Swapnil – GCET, Roll No: 22R15A0502 – 22R15A0502@gcet.edu.in
+
+ # License
+This project is for educational and academic purposes only.
 
