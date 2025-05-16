@@ -4,6 +4,7 @@ This is a full-stack web application that ensures the authenticity of uploaded d
 Features
 
 Upload documents and store their hashes on the blockchain
+
 Validate document uniqueness via SHA-256
 Upload documents to IPFS (via Pinata)
 Google-based Firebase OTP authentication
@@ -15,9 +16,16 @@ UI includes About & Contact sections
 
 Technologies Used
 
-Frontend: React.js
-Blockchain: Solidity, Ganache (local Ethereum network), ethers.js
-Storage: IPFS via Pinata
+| Layer             | Tools & Technologies                             |
+| ----------------- | ------------------------------------------------ |
+| Frontend          | React.js, HTML5, CSS3, JavaScript (No Tailwind)  |
+| Backend           | Ethereum Smart Contracts (Solidity), Ganache GUI |
+| Blockchain Access | Web3.js                                          |
+| File Storage      | IPFS                                             |
+| Authentication    | Firebase (Google OTP Auth)                       |
+| Notifications     | EmailJS, AbstractAPI                             |
+| IDE               | Visual Studio Code (Windows)                     |
+
 Authentication: Firebase (Google OTP)
 Email Notification: EmailJS
 Backend DB: Firestore (to log previous uploaders)
