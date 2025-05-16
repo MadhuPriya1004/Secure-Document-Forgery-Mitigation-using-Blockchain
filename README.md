@@ -1,5 +1,5 @@
 # Secure-Document-Forgery-Mitigation-using-Blockchain
-This is a full-stack web application that ensures the authenticity of uploaded documents using Blockchain, IPFS, and Firebase. It prevents forgery attempts by validating document hashes and alerts prior uploaders about re-uploads or issuance via email. 
+This project aims to mitigate the risks of document forgery by leveraging the immutability of blockchain technology combined with secure storage on IPFS and robust Google-based authentication using Firebase. It ensures document integrity, prevents duplicates, and enables secure issuing and verification, along with email-based notifications for previous contributors.
 
 # Features
 
