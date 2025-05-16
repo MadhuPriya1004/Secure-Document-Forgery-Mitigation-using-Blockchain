@@ -32,7 +32,6 @@ UI includes About & Contact sections
 | Authentication    | Firebase (Google OTP Auth)                       |
 | Notifications     | EmailJS, AbstractAPI                             |
 | IDE               | Visual Studio Code (Windows)                     |
+| Backend DB        | Firestore (to log previous uploaders)            |
 
-Authentication: Firebase (Google OTP)
-Email Notification: EmailJS
-Backend DB: Firestore (to log previous uploaders)
+
