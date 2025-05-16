@@ -30,7 +30,7 @@ UI includes About & Contact sections
 | Blockchain Access | Web3.js                                          |
 | File Storage      | IPFS                                             |
 | Authentication    | Firebase (Google OTP Auth)                       |
-| Notifications     | EmailJS, AbstractAPI                             |
+| Notifications     | EmailJS                                          |
 | IDE               | Visual Studio Code (Windows)                     |
 | Backend DB        | Firestore (to log previous uploaders)            |
 
